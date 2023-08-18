@@ -1,0 +1,80 @@
+.container{
+display: flex;     
+gap: 45px;
+margin: 55px 0px 15px 25px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.box1{
+    width: 250px;
+    height: 100px;
+    background-color: pink;
+    margin: 10px;
+    transition:.8s;
+
+
+}
+.box1:hover{
+    transform: scale(1.2);
+    transition:.8s;
+
+}
+
+.box2{
+    width: 250px;
+    height: 100px;
+
+    background-color: red;
+    margin: 10px;
+    transition:.8s;
+
+}
+
+
+.box2:hover{
+    transform: rotate(20deg);
+    transition:.8s;
+
+
+}
+.box2 p{
+    margin: 5px;
+    text-align: center;
+   
+}
+
+.box3{
+    width: 250px;
+    height: 100px;
+
+    background-color: black;
+    margin: 10px;
+    transition:.8s;
+
+
+}
+.box3:hover{
+    transform: translate(50px,50px);
+    transition:.8s;
+
+
+
+}
+
+.box4{
+    width: 250px;
+    height: 100px;
+
+    background-color: green;
+    margin: 10px;
+    transition:.8s;
+
+
+}
+.box4:hover{
+    transform:skew(-20deg);
+    transition: .8s;
+
+
+}
